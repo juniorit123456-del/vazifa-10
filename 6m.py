@@ -8,8 +8,3 @@ plt.title("Do'kon savdosi")
 plt.xlabel("Mahsulotlar")
 plt.ylabel("Sotilgan soni")
 plt.show()
-
-eng_kop = max(sotuv)
-eng_kam = min(sotuv)
-print("Eng ko'p sotilgan:", mahsulotlar[sotuv.index(eng_kop)], eng_kop)
-print("Eng kam sotilgan:", mahsulotlar[sotuv.index(eng_kam)], eng_kam)
